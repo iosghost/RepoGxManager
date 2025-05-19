@@ -69,12 +69,3 @@
 </div>
 
 ---
-
-## 🚀 Quick Start | البدء السريع
-
-```bash
-# ⬇️ Clone the repository
-git clone https://github.com/GhostTechXx/RepoGxManager.git
-
-# 🚀 Open in Xcode
-open RepoGxManager.xcodeproj
