@@ -1,112 +1,151 @@
 # Repo Gx Manager - GitHub Repository Manager 🌟  
 **مدير مستودعات GitHub - ريبو جي إكس مانجر**  
 
-![App Screenshot](https://via.placeholder.com/800x400?text=Repo+Gx+Manager+Screenshots)
+![App Logo](https://via.placeholder.com/800x400?text=Repo+Gx+Manager+Logo)
 
 ---
 
-## ✨ Key Features | الميزات الرئيسية  
+## ✨ Core Features | الميزات الأساسية  
 
-### 🔐 GitHub Authentication System  
-- **مصادقة آمنة باستخدام توكن GitHub**  
-- Secure token-based authentication  
-- **تذكر بيانات الدخول** للمرة القادمة  
-- Remember login feature  
-- **يدعم الحسابات الشخصية والمنظمات**  
-- Supports both personal and organization accounts  
+### 🔐 Authentication System | نظام المصادقة  
+**English:**  
+- Secure GitHub token authentication  
+- Remember login credentials  
+- Supports personal & organization accounts  
 
-### 📦 Advanced DEB Package Management  
-- **رفع حزم DEB مباشرة إلى المستودع**  
-- Upload DEB packages to your repo  
-- **استخراج تلقائي للبيانات الوصفية**  
+**العربية:**  
+- مصادقة آمنة باستخدام توكن GitHub  
+- تذكر بيانات الدخول  
+- يدعم الحسابات الشخصية والمنظمات  
+
+---
+
+### 📦 DEB Package Management | إدارة حزم DEB  
+**English:**  
+- One-click DEB package uploads  
 - Automatic metadata extraction  
-- **كشف تلقائي للبنية (arm64, arm64e, arm)**  
-- Auto-detect package architecture  
-- **تعديل شامل للبيانات الوصفية**  
-- Full metadata editing capabilities  
+- Smart architecture detection (arm64/arm64e/arm)  
+- Full metadata editor (Name, Version, Depends, etc.)  
+- **Special:** Merge new packages with existing Packages file  
 
-### 🖼️ Media Management System  
-- **رفع أيقونات وصور رأس للحزم**  
-- Upload icons and header images  
-- **معاينة الصور قبل الرفع**  
+**العربية:**  
+- رفع حزم DEB بنقرة واحدة  
+- استخراج تلقائي للبيانات الوصفية  
+- كشف ذكي للبنية (arm64/arm64e/arm)  
+- محرر بيانات وصفية كامل  
+- **مميز خاص:** دمج الحزم الجديدة مع ملف Packages القديم  
+
+---
+
+### 🖼️ Media Management | إدارة الوسائط  
+**English:**  
+- Upload package icons (PNG/JPG)  
+- Add custom header images  
 - Image preview before upload  
-- **يدعم PNG و JPG**  
-- Supports PNG/JPG formats  
+- Automatic resizing  
 
-### 🔄 Smart Packages File Handling  
-- **تحديث تلقائي لملف Packages**  
-- Auto-update Packages file  
-- **ميزة خاصة:** إذا كان لديك ملف Packages قديم وتريد إضافة حزم جديدة عليه:  
-  **1. اختر "رفع ملف Packages"**  
-  **2. سيتم دمج الحزم الجديدة مع القديمة تلقائياً**  
-- **Special Feature:** If you have an old Packages file:  
-  **1. Select "Upload Packages File"**  
-  **2. New packages will be merged automatically**  
+**العربية:**  
+- رفع أيقونات للحزم (PNG/JPG)  
+- إضافة صور رأس مخصصة  
+- معاينة الصور قبل الرفع  
+- تغيير حجم تلقائي  
 
-### 📁 Professional File Manager  
-- **تصفح محتويات المستودع**  
+---
+
+### 🔄 Packages File System | نظام ملف Packages  
+**English:**  
+- Auto-generate Packages file  
+- Manual Packages file upload  
+- Smart merging with existing packages  
+- Edit Packages content directly  
+
+**العربية:**  
+- إنشاء تلقائي لملف Packages  
+- رفع ملف Packages يدوياً  
+- دمج ذكي مع الحزم الموجودة  
+- تعديل محتوى الملف مباشرة  
+
+---
+
+### 📁 File Manager | مدير الملفات  
+**English:**  
 - Browse repository contents  
-- **إنشاء/حذف/إعادة تسمية المجلدات**  
-- Create/delete/rename folders  
-- **محرر نصوص مدمج**  
-- Built-in text editor  
+- Create/rename/delete folders  
+- Edit text files in-app  
+- View file details (size, last modified)  
 
-### ⚙️ Customization Options  
-- **الوضع المظلم/الفاتح**  
+**العربية:**  
+- تصفح محتويات المستودع  
+- إنشاء/إعادة تسمية/حذف مجلدات  
+- تعديل الملفات النصية داخل التطبيق  
+- عرض تفاصيل الملفات (الحجم، آخر تعديل)  
+
+---
+
+### ⚙️ Customization | التخصيص  
+**English:**  
 - Dark/Light mode  
-- **8 ألوان رئيسية للاختيار**  
-- 8 primary color options  
-- **دعم اللغات (الإنجليزية والعربية)**  
-- English & Arabic support  
+- 8 color themes  
+- English/Arabic language support  
+- Auto-update options  
 
-### ⚡ Bonus Features  
-- **إنشاء ملف workflow تلقائي** لبناء Packages  
-- Auto-create workflow file  
-- **حفظ محلي لملف Packages**  
-- Local Packages file caching  
-- **واجهة مستخدم حديثة وسريعة**  
-- Modern and fast UI  
+**العربية:**  
+- وضع ليلي/نهاري  
+- 8 ألوان للوحة التحكم  
+- دعم اللغتين الإنجليزية والعربية  
+- خيارات التحديث التلقائي  
 
 ---
 
-## 🚀 Workflow Scenarios | سيناريوهات العمل  
+## 🛠️ How It Works | طريقة العمل  
 
-### 1️⃣ Uploading New Packages:  
-- Select DEB → Edit metadata → Upload  
-- يتم دمج الحزمة الجديدة مع ملف Packages تلقائياً  
+### For New Repositories | للمستودعات الجديدة  
+**English:**  
+1. Upload DEB packages  
+2. Metadata auto-filled  
+3. Packages file generated automatically  
 
-### 2️⃣ Updating Existing Repo:  
-1. Upload your old Packages file first  
-2. ثم ارفع الحزم الجديدة  
-3. سيتم الحفاظ على الحزم القديمة مع إضافة الجديدة  
+**العربية:**  
+1. رفع حزم DEB  
+2. تعبئة البيانات تلقائياً  
+3. إنشاء ملف Packages أوتوماتيكياً  
 
-### 3️⃣ Managing Files:  
-- Use File Manager to organize:  
-  - `/debs` for packages  
-  - `/icons` for icons  
-  - `/headers` for header images  
+### For Existing Repositories | للمستودعات الموجودة  
+**English:**  
+1. **First:** Upload your old Packages file  
+2. Then add new DEB packages  
+3. App merges new entries automatically  
 
----
-
-## 📝 Pro Tips | نصائح الخبراء  
-
-1. **للمستودعات الموجودة مسبقاً:**  
-   - ارفع ملف Packages القديم أولاً قبل إضافة حزم جديدة  
-   - سيحافظ التطبيق على جميع الحزم القديمة  
-
-2. **لحزم متعددة:**  
-   - يمكنك رفع عدة حزم ثم تحديث ملف Packages مرة واحدة  
-
-3. **لأفضل أداء:**  
-   - استخدم مجلدات منفصلة للصور والحزم  
-   - تفعيل الوضع المظلم يقلل استهلاك البطارية  
+**العربية:**  
+1. **أولاً:** ارفع ملف Packages القديم  
+2. ثم أضف حزم DEB جديدة  
+3. يدمج التطبيق المدخلات الجديدة تلقائياً  
 
 ---
 
-## 📥 Installation Guide | دليل التثبيت  
+## 💡 Pro Tips | نصائح احترافية  
+
+**English:**  
+✔ Always upload Packages file first if updating existing repo  
+✔ Use folders: `/debs`, `/icons`, `/headers`  
+✔ Enable auto-update in settings  
+
+**العربية:**  
+✔ ارفع ملف Packages أولاً عند تحديث مستودع موجود  
+✔ استخدم مجلدات: `/debs`, `/icons`, `/headers`  
+✔ فعّل التحديث التلقائي من الإعدادات  
+
+---
+
+## 📥 Installation | التثبيت  
 
 ```bash
-1. Download the .ipa file
-2. Install using AltStore/Sideloadly
-3. Authenticate with GitHub token
-4. Start managing your repo!
+# For iOS:
+1. Install via AltStore/Sideloadly
+2. Authenticate with GitHub token
+3. Start managing your repo!
+
+# لنظام iOS:
+1. ثبّت عبر AltStore/Sideloadly
+2. سجّل الدخول باستخدام توكن GitHub
+3. ابدأ إدارة مستودعك!
