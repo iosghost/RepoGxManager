@@ -91,9 +91,9 @@
 - Personal Access Token (repo permissions)
 
 ## 📥 Download | التحميل
-Available on [Trollstore](hhh) and [Sileo](https://getsileo.app)
+*Available on [Trollstore](hhh) and [Sileo](https://getsileo.app)
 
-متوفر على [Trollstore](hhh) و[Sileo](https://getsileo.app)
+
 ---
 
 <i class="fas fa-code-branch"></i> **License:** MIT  
