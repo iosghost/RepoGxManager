@@ -122,12 +122,3 @@
 3. يدمج التطبيق المدخلات الجديدة تلقائياً  
 
 ---
-
-
-<RepoManager>
-  <AuthProvider>
-    <PackageUploader dragDrop={true} />
-    <MetadataEditor autoFill={true} />
-    <FileExplorer treeView={true} />
-  </AuthProvider>
-</RepoManager>
