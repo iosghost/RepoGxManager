@@ -91,9 +91,8 @@
 - Personal Access Token (repo permissions)
 
 ## 📥 Download | التحميل
-Available on [AltStore](https://altstore.io) and [Sileo](https://getsileo.app)
+Available on [Trollstore](hhh) and [Sileo](https://getsileo.app)
 
-<i class="fab fa-github"></i> [View on GitHub](https://github.com/your-repo)
 
 ---
 
