@@ -1,144 +1,83 @@
-# Repo Gx Manager 🌟
+# Repo Gx Manager - GitHub Repository Manager 🌟  
+**مدير مستودعات GitHub - ريبو جي إكس مانجر**  
 
-![App Icon](https://via.placeholder.com/150) 
-
-**The Ultimate GitHub Repository Manager for DEB Packages**  
-*A powerful tool to manage your Cydia/APT repositories with ease*
+![Repo Gx Manager Banner](https://via.placeholder.com/800x200?text=Repo+Gx+Manager+-+Modern+GitHub+Repo+Management)  
 
 ---
 
-## 🌍 Languages
-- [English](#features)
-- [العربية](#المميزات)
+## ✨ Key Features | الميزات الرئيسية  
+
+### 🔐 Secure GitHub Authentication  
+- **Token-based authentication** for secure access to your GitHub repositories  
+- **Remember login** option for quick access  
+- **Supports both personal and organization** repositories  
+
+### 📦 DEB Package Management  
+- **Upload DEB packages** directly to your GitHub repository  
+- **Automatic metadata extraction** from DEB files  
+- **Edit package metadata** (Name, Version, Architecture, Dependencies, etc.)  
+- **Auto-detect architecture** (arm64, arm64e, arm)  
+
+### 🖼️ Media Management  
+- **Upload icons and header images** for your packages  
+- **Preview images** before uploading  
+- **Supports PNG/JPG** formats  
+
+### 🔄 Packages File Management  
+- **Auto-generate Packages file** from uploaded DEBs  
+- **Edit existing Packages file** directly in-app  
+- **Upload custom Packages file** if you have an old one  
+
+### 📁 Advanced File Manager  
+- **Browse repository contents** (DEBs, icons, headers)  
+- **Create/Delete/Rename folders**  
+- **Edit text files** directly in the app  
+
+### ⚙️ Customizable Settings  
+- **Dark/Light mode** support  
+- **Multiple color themes** (Blue, Green, Purple, etc.)  
+- **Language support** (English & العربية)  
 
 ---
 
-<a name="features"></a>
-## 🚀 Features
-
-### 🔒 Authentication
-- Secure GitHub token authentication
-- Remember login option
-- Multi-language support (English/Arabic)
-
-### 📦 DEB Package Management
-- Upload DEB packages directly to your GitHub repository
-- Automatic metadata extraction from DEB files
-- Customizable package metadata (Name, Version, Architecture, etc.)
-- Supports all iOS architectures (arm, arm64, arm64e)
-- Automatic checksum calculation (MD5, SHA1, SHA256)
-
-### 🖼️ Media Management
-- Upload package icons with preview
-- Upload header images for packages
-- Image preview before upload
-
-### 📂 File Management
-- Built-in file explorer for your repository
-- Create, rename, and delete files/folders
-- Edit text files directly in the app
-- View file details (size, last modified)
-
-### ⚙️ Advanced Features
-- Automatic Packages file generation and updating
-- Manual Packages file upload option
-- Dark/Light mode support
-- Customizable primary color theme
-- Auto-update workflow creation
-- Multi-language support (English/Arabic)
-
-### 🔄 Workflow Automation
-- Automatic creation of GitHub workflow for repository updates
-- Handles Packages, Packages.bz2, Packages.xz, Packages.gz generation
-- Commits changes automatically when new DEBs are added
-
-### 🎨 Modern UI
-- Sleek, intuitive interface
-- Progress indicators for uploads
-- Responsive design for all devices
-- Customizable appearance
+## 📥 Installation | التثبيت  
+1. Download the latest `.ipa` file from [Releases](https://github.com/your-repo/releases)  
+2. Install via AltStore/Sideloadly  
+3. Open the app and authenticate with your GitHub token  
 
 ---
 
+## 🚀 Usage Guide | دليل الاستخدام  
 
-## 🛠️ Requirements
-- iOS 15.0+
-- GitHub account with repository access
+### Uploading a DEB Package:  
+1. Click **"Select DEB File"**  
+2. Edit metadata (optional)  
+3. Click **"Upload Package"**  
 
----
+### Updating Packages File:  
+- The app **automatically updates** the Packages file after upload  
+- You can also **manually upload** a custom Packages file  
 
-## 📸 Screenshots
-
-| Authentication | Package Upload | File Manager |
-|----------------|----------------|--------------|
-| ![Auth Screen](https://via.placeholder.com/300) | ![Upload Screen](https://via.placeholder.com/300) | ![File Manager](https://via.placeholder.com/300) |
-
-| Metadata Editor | Settings | Dark Mode |
-|-----------------|----------|-----------|
-| ![Metadata Editor](https://via.placeholder.com/300) | ![Settings](https://via.placeholder.com/300) | ![Dark Mode](https://via.placeholder.com/300) |
+### Managing Files:  
+- Go to **File Manager** to view/edit repository files  
+- Long-press files for **delete/rename/edit** options  
 
 ---
 
-## 👨‍💻 Developer
-- **GhostTechXx**
-- [Twitter](https://twitter.com/GhostTechXx)
+## 📜 Requirements | المتطلبات  
+- iOS 15+  
+- GitHub Personal Access Token (repo permissions)  
 
 ---
 
-<a name="المميزات"></a>
-## 🚀 المميزات
+## 📞 Support | الدعم  
+For issues/feature requests, open an issue on [GitHub](https://github.com/your-repo/issues)  
 
-### 🔒 المصادقة
-- مصادقة آمنة باستخدام رمز GitHub
-- خيار تذكر تسجيل الدخول
-- دعم متعدد اللغات (الإنجليزية/العربية)
-
-### 📦 إدارة حزم DEB
-- رفع حزم DEB مباشرة إلى مستودع GitHub
-- استخراج تلقائي للبيانات الوصفية من ملفات DEB
-- تخصيص بيانات الحزمة (الاسم، الإصدار، البنية، إلخ)
-- دعم جميع بنى iOS (arm, arm64, arm64e)
-- حساب تلقائي للتأكد من سلامة الملفات (MD5, SHA1, SHA256)
-
-### 🖼️ إدارة الوسائط
-- رفع أيقونات للحزم مع معاينة
-- رفع صور رأس للحزم
-- معاينة الصور قبل الرفع
-
-### 📂 إدارة الملفات
-- مستكشف ملفات مدمج للمستودع
-- إنشاء، إعادة تسمية وحذف الملفات/المجلدات
-- تعديل الملفات النصية مباشرة من التطبيق
-- عرض تفاصيل الملف (الحجم، آخر تعديل)
-
-### ⚙️ ميزات متقدمة
-- إنشاء وتحديث تلقائي لملف Packages
-- خيار رفع ملف Packages يدوياً
-- دعم الوضع المظلم/الفاتح
-- تخصيص لون التطبيق الأساسي
-- إنشاء تلقائي لسير العمل للتحديثات
-- دعم متعدد اللغات (الإنجليزية/العربية)
-
-### 🔄 أتمتة سير العمل
-- إنشاء تلقائي لسير عمل GitHub لتحديثات المستودع
-- إنشاء تلقائي لملفات (Packages, Packages.bz2, Packages.xz, Packages.gz)
-- حفظ التغييرات تلقائياً عند إضافة حزم جديدة
-
-### 🎨 واجهة مستخدم حديثة
-- واجهة أنيقة وسهلة الاستخدام
-- مؤشرات تقدم للرفع
-- تصميم متجاوب لجميع الأجهزة
-- مظهر قابل للتخصيص
-
----
-## 🛠️ المتطلبات
-- iOS 15.0+
-- حساب GitHub مع صلاحيات للمستودع
+**Developer:** [@GhostTechXx](https://twitter.com/GhostTechXx)  
 
 ---
 
-## 👨‍💻 المطور
-- **GhostTechXx**
-- [تويتر](https://twitter.com/GhostTechXx)
-
----
+## 🌟 Pro Tips | نصائح احترافية  
+- Enable **"Auto Update After Upload"** in settings for seamless workflow  
+- Use **File Manager** to organize your repo (create `debs`, `icons` folders)  
+- If you have an **old Packages file**, upload it first to preserve existing packages  
