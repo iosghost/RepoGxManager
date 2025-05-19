@@ -1,71 +1,53 @@
-<h1 align="center">
-  🚀 Repo Gx Manager  
-  <br>
-  <sub><sup>The Ultimate GitHub DEB Package Manager</sup></sub>  
-  <br>
-  <sub><sup>أداة إدارة مستودعات GitHub لحزم DEB باحترافية</sup></sub>
-</h1>
-
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/58350582/188321720-8a7b3a2a-3b2a-4b5e-9b1e-9e9b9c9b9c9b.png" width="70%" alt="Repo Gx Manager Banner"/>
-
-  <br><br>
-
-  <img src="https://img.shields.io/badge/Swift-5.5-orange.svg"/>
-  <img src="https://img.shields.io/badge/iOS-15%2B-blue.svg"/>
-  <img src="https://img.shields.io/badge/License-MIT-green.svg"/>
-  <img src="https://img.shields.io/github/stars/GhostTechXx/RepoGxManager?style=social"/>
+  <img src="https://user-images.githubusercontent.com/58350582/188321720-8a7b3a2a-3b2a-4b5e-9b1e-9e9b9c9b9c9b.png" width="800" alt="Repo Gx Manager Banner">
+  
+  # Repo Gx Manager
+  
+  ### 🚀 The Ultimate GitHub DEB Package Manager
+  ### 🏆 أداة إدارة مستودعات GitHub لحزم DEB باحترافية
+  
+  [![Swift](https://img.shields.io/badge/Swift-5.5-FA7343?logo=swift&logoColor=white)](https://swift.org)
+  [![Platform](https://img.shields.io/badge/iOS-15%2B-0096FF?logo=apple)](https://developer.apple.com/ios/)
+  [![License](https://img.shields.io/badge/License-MIT-3DA639)](https://opensource.org/licenses/MIT)
+  [![GitHub Stars](https://img.shields.io/github/stars/GhostTechXx/RepoGxManager?color=yellow&logo=github&style=social)](https://github.com/GhostTechXx/RepoGxManager/stargazers)
 </div>
 
 ---
 
-## ✨ Features | الميزات
-
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="33%">
-      <h3>🔐 Secure Auth</h3>
-      <p>GitHub Token auth with session remember</p>
-      <p><i>مصادقة آمنة مع تذكّر الجلسة</i></p>
-    </td>
-    <td align="center" width="33%">
-      <h3>📦 DEB Management</h3>
-      <p>Upload, edit and auto-update DEB packages</p>
-      <p><i>رفع وتعديل حزم DEB تلقائيًا</i></p>
-    </td>
-    <td align="center" width="33%">
-      <h3>🖼️ Media Upload</h3>
-      <p>Upload icons & headers with live preview</p>
-      <p><i>رفع أيقونات وصور مع المعاينة الفورية</i></p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <h3>📂 File Manager</h3>
-      <p>Full file system control</p>
-      <p><i>تحكم شامل بنظام الملفات</i></p>
-    </td>
-    <td align="center">
-      <h3>⚙️ Smart Automation</h3>
-      <p>Auto update Packages files</p>
-      <p><i>تحديث تلقائي لملفات Packages</i></p>
-    </td>
-    <td align="center">
-      <h3>🌐 Bilingual Interface</h3>
-      <p>Supports English & Arabic UI</p>
-      <p><i>واجهة مزدوجة باللغتين العربية والإنجليزية</i></p>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🎨 UI Showcase | عرض الواجهة
+## 🌟 الميزات الرائعة | Amazing Features
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/58350582/188321721-8a7b3a2a-3b2a-4b5e-9b1e-9e9b9c9b9c9b.png" width="28%" alt="Auth Screen" />
-  <img src="https://user-images.githubusercontent.com/58350582/188321722-8a7b3a2a-3b2a-4b5e-9b1e-9e9b9c9b9c9b.png" width="28%" alt="Upload Screen" />
-  <img src="https://user-images.githubusercontent.com/58350582/188321723-8a7b3a2a-3b2a-4b5e-9b1e-9e9b9c9b9c9b.png" width="28%" alt="File Manager" />
+  
+  | 🛡️ الأمان المتقدم | 📦 إدارة الحزم الذكية | 🎨 واجهة متطورة |
+  |----------------|----------------|----------------|
+  | ![Security](https://img.icons8.com/fluency/48/000000/security-checked.png) | ![Package](https://img.icons8.com/color/48/000000/box.png) | ![UI](https://img.icons8.com/fluency/48/000000/design.png) |
+  | مصادقة GitHub مع حفظ الجلسة | رفع وتحديث حزم DEB تلقائيًا | واجهة مستخدم ثنائية اللغة أنيقة |
+  | Secure GitHub token authentication | Automated DEB package management | Elegant bilingual UI |
+
 </div>
 
 ---
+
+## 🎥 معرض الواجهة | UI Gallery
+
+<div align="center">
+  <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+    <img src="https://user-images.githubusercontent.com/58350582/188321721-8a7b3a2a-3b2a-4b5e-9b1e-9e9b9c9b9c9b.png" width="30%" alt="Auth Screen" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="https://user-images.githubusercontent.com/58350582/188321722-8a7b3a2a-3b2a-4b5e-9b1e-9e9b9c9b9c9b.png" width="30%" alt="Upload Screen" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="https://user-images.githubusercontent.com/58350582/188321723-8a7b3a2a-3b2a-4b5e-9b1e-9e9b9c9b9c9b.png" width="30%" alt="File Manager" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+</div>
+
+---
+
+## ⚡ البداية السريعة | Quick Start
+
+```bash
+# استنساخ المستودع
+git clone https://github.com/GhostTechXx/RepoGxManager.git
+
+# الانتقال إلى المجلد
+cd RepoGxManager
+
+# فتح المشروع في Xcode
+xed .
