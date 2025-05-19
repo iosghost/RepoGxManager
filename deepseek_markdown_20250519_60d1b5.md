@@ -1,83 +1,112 @@
 # Repo Gx Manager - GitHub Repository Manager 🌟  
 **مدير مستودعات GitHub - ريبو جي إكس مانجر**  
 
-![Repo Gx Manager Banner](https://via.placeholder.com/800x200?text=Repo+Gx+Manager+-+Modern+GitHub+Repo+Management)  
+![App Screenshot](https://via.placeholder.com/800x400?text=Repo+Gx+Manager+Screenshots)
 
 ---
 
 ## ✨ Key Features | الميزات الرئيسية  
 
-### 🔐 Secure GitHub Authentication  
-- **Token-based authentication** for secure access to your GitHub repositories  
-- **Remember login** option for quick access  
-- **Supports both personal and organization** repositories  
+### 🔐 GitHub Authentication System  
+- **مصادقة آمنة باستخدام توكن GitHub**  
+- Secure token-based authentication  
+- **تذكر بيانات الدخول** للمرة القادمة  
+- Remember login feature  
+- **يدعم الحسابات الشخصية والمنظمات**  
+- Supports both personal and organization accounts  
 
-### 📦 DEB Package Management  
-- **Upload DEB packages** directly to your GitHub repository  
-- **Automatic metadata extraction** from DEB files  
-- **Edit package metadata** (Name, Version, Architecture, Dependencies, etc.)  
-- **Auto-detect architecture** (arm64, arm64e, arm)  
+### 📦 Advanced DEB Package Management  
+- **رفع حزم DEB مباشرة إلى المستودع**  
+- Upload DEB packages to your repo  
+- **استخراج تلقائي للبيانات الوصفية**  
+- Automatic metadata extraction  
+- **كشف تلقائي للبنية (arm64, arm64e, arm)**  
+- Auto-detect package architecture  
+- **تعديل شامل للبيانات الوصفية**  
+- Full metadata editing capabilities  
 
-### 🖼️ Media Management  
-- **Upload icons and header images** for your packages  
-- **Preview images** before uploading  
-- **Supports PNG/JPG** formats  
+### 🖼️ Media Management System  
+- **رفع أيقونات وصور رأس للحزم**  
+- Upload icons and header images  
+- **معاينة الصور قبل الرفع**  
+- Image preview before upload  
+- **يدعم PNG و JPG**  
+- Supports PNG/JPG formats  
 
-### 🔄 Packages File Management  
-- **Auto-generate Packages file** from uploaded DEBs  
-- **Edit existing Packages file** directly in-app  
-- **Upload custom Packages file** if you have an old one  
+### 🔄 Smart Packages File Handling  
+- **تحديث تلقائي لملف Packages**  
+- Auto-update Packages file  
+- **ميزة خاصة:** إذا كان لديك ملف Packages قديم وتريد إضافة حزم جديدة عليه:  
+  **1. اختر "رفع ملف Packages"**  
+  **2. سيتم دمج الحزم الجديدة مع القديمة تلقائياً**  
+- **Special Feature:** If you have an old Packages file:  
+  **1. Select "Upload Packages File"**  
+  **2. New packages will be merged automatically**  
 
-### 📁 Advanced File Manager  
-- **Browse repository contents** (DEBs, icons, headers)  
-- **Create/Delete/Rename folders**  
-- **Edit text files** directly in the app  
+### 📁 Professional File Manager  
+- **تصفح محتويات المستودع**  
+- Browse repository contents  
+- **إنشاء/حذف/إعادة تسمية المجلدات**  
+- Create/delete/rename folders  
+- **محرر نصوص مدمج**  
+- Built-in text editor  
 
-### ⚙️ Customizable Settings  
-- **Dark/Light mode** support  
-- **Multiple color themes** (Blue, Green, Purple, etc.)  
-- **Language support** (English & العربية)  
+### ⚙️ Customization Options  
+- **الوضع المظلم/الفاتح**  
+- Dark/Light mode  
+- **8 ألوان رئيسية للاختيار**  
+- 8 primary color options  
+- **دعم اللغات (الإنجليزية والعربية)**  
+- English & Arabic support  
 
----
-
-## 📥 Installation | التثبيت  
-1. Download the latest `.ipa` file from [Releases](https://github.com/your-repo/releases)  
-2. Install via AltStore/Sideloadly  
-3. Open the app and authenticate with your GitHub token  
-
----
-
-## 🚀 Usage Guide | دليل الاستخدام  
-
-### Uploading a DEB Package:  
-1. Click **"Select DEB File"**  
-2. Edit metadata (optional)  
-3. Click **"Upload Package"**  
-
-### Updating Packages File:  
-- The app **automatically updates** the Packages file after upload  
-- You can also **manually upload** a custom Packages file  
-
-### Managing Files:  
-- Go to **File Manager** to view/edit repository files  
-- Long-press files for **delete/rename/edit** options  
-
----
-
-## 📜 Requirements | المتطلبات  
-- iOS 15+  
-- GitHub Personal Access Token (repo permissions)  
-
----
-
-## 📞 Support | الدعم  
-For issues/feature requests, open an issue on [GitHub](https://github.com/your-repo/issues)  
-
-**Developer:** [@GhostTechXx](https://twitter.com/GhostTechXx)  
+### ⚡ Bonus Features  
+- **إنشاء ملف workflow تلقائي** لبناء Packages  
+- Auto-create workflow file  
+- **حفظ محلي لملف Packages**  
+- Local Packages file caching  
+- **واجهة مستخدم حديثة وسريعة**  
+- Modern and fast UI  
 
 ---
 
-## 🌟 Pro Tips | نصائح احترافية  
-- Enable **"Auto Update After Upload"** in settings for seamless workflow  
-- Use **File Manager** to organize your repo (create `debs`, `icons` folders)  
-- If you have an **old Packages file**, upload it first to preserve existing packages  
+## 🚀 Workflow Scenarios | سيناريوهات العمل  
+
+### 1️⃣ Uploading New Packages:  
+- Select DEB → Edit metadata → Upload  
+- يتم دمج الحزمة الجديدة مع ملف Packages تلقائياً  
+
+### 2️⃣ Updating Existing Repo:  
+1. Upload your old Packages file first  
+2. ثم ارفع الحزم الجديدة  
+3. سيتم الحفاظ على الحزم القديمة مع إضافة الجديدة  
+
+### 3️⃣ Managing Files:  
+- Use File Manager to organize:  
+  - `/debs` for packages  
+  - `/icons` for icons  
+  - `/headers` for header images  
+
+---
+
+## 📝 Pro Tips | نصائح الخبراء  
+
+1. **للمستودعات الموجودة مسبقاً:**  
+   - ارفع ملف Packages القديم أولاً قبل إضافة حزم جديدة  
+   - سيحافظ التطبيق على جميع الحزم القديمة  
+
+2. **لحزم متعددة:**  
+   - يمكنك رفع عدة حزم ثم تحديث ملف Packages مرة واحدة  
+
+3. **لأفضل أداء:**  
+   - استخدم مجلدات منفصلة للصور والحزم  
+   - تفعيل الوضع المظلم يقلل استهلاك البطارية  
+
+---
+
+## 📥 Installation Guide | دليل التثبيت  
+
+```bash
+1. Download the .ipa file
+2. Install using AltStore/Sideloadly
+3. Authenticate with GitHub token
+4. Start managing your repo!
