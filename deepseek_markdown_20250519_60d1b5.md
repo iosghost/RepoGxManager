@@ -98,4 +98,4 @@ Available on [AltStore](https://altstore.io) and [Sileo](https://getsileo.app)
 ---
 
 <i class="fas fa-code-branch"></i> **License:** MIT  
-<i class="fas fa-heart"></i> **Maintainer:** @YourUsername
+<i class="fas fa-heart"></i> **Maintainer:** @iosghost
