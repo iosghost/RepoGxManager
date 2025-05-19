@@ -1,0 +1,64 @@
+name: 🛠️ تحديث مستودع الحزم (الإصدار النهائي)
+
+on:
+  push:
+    paths:
+      - 'debs/**'
+  workflow_dispatch:
+
+jobs:
+  update_repo:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: ⬇️ تحميل المستودع
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🔍 فحص مجلد debs
+        id: check_debs
+        run: |
+          mkdir -p debs
+          COUNT=$(find debs/ -maxdepth 1 -name '*.deb' | wc -l)
+          echo "📂 عدد الحزم الموجودة: $COUNT"
+          echo "has_debs=$([ $COUNT -gt 0 ] && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
+
+      - name: ⚙️ تثبيت المتطلبات
+        if: steps.check_debs.outputs.has_debs == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -yqq dpkg-dev bzip2 xz-utils
+
+      - name: 📦 إنشاء الفهرس
+        if: steps.check_debs.outputs.has_debs == 'true'
+        run: |
+          touch override
+          if ! dpkg-scanpackages -m debs override > Packages 2>warnings.log; then
+            echo "⚠️ ظهرت تحذيرات:"
+            cat warnings.log
+          fi
+          bzip2 -kf Packages
+          xz -kf Packages
+          gzip -kf Packages
+          echo "✅ تم إنشاء ملفات الفهرس بنجاح"
+
+      - name: ℹ️ إعلام إذا لم توجد حزم
+        if: steps.check_debs.outputs.has_debs == 'false'
+        run: echo "##[notice] لا يوجد ملفات .deb في مجلد debs، تم تخطي العملية"
+
+      - name: 🔄 رفع التغييرات
+        if: steps.check_debs.outputs.has_debs == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[github.com]"
+          git add Packages*
+          if git diff-index --quiet HEAD --; then
+            echo "🆗 لا يوجد تغييرات لرفعها"
+          else
+            git commit -m "🔄 تحديث تلقائي للفهرس [skip ci]"
+            git pull --rebase
+            git push
+          fi
