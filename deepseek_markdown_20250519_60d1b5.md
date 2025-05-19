@@ -1,7 +1,7 @@
 # Repo Gx Manager - GitHub Repository Manager 🌟  
 **مدير مستودعات GitHub - ريبو جي إكس مانجر**  
 
-![App Logo](https://via.placeholder.com/800x400?text=Repo+Gx+Manager+Logo)
+![App Logo](https://c.top4top.io/p_3426kvzpb0.png)
 
 ---
 
