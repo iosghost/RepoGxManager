@@ -91,7 +91,7 @@
 - Personal Access Token (repo permissions)
 
 ## 📥 Download | التحميل
-Available on [Trollstore](hhh) and [Sileo](https://getsileo.app)
+Available on [Trollstore](hhh) and [Sileo](https://github.com/iosghost/RepoGxManager/releases/download/RGX/RGX.ipa)
 
 
 ---
