@@ -1,7 +1,7 @@
 # Repo Gx Manager - GitHub Repository Manager 🌟  
 **مدير مستودعات كيتهاب - ريبو جي إكس مانجر**  
 
-![App Logo](https://c.top4top.io/p_3426kvzpb0.png)
+![App Logo](assets/images/rgx.png)
 
 ---
 
@@ -96,5 +96,4 @@ Available on [Trollstore](hhh) and [Sileo](https://getsileo.app)
 
 ---
 
-<i class="fas fa-code-branch"></i> **License:** MIT  
 <i class="fas fa-heart"></i> **Maintainer:** @iosghost
